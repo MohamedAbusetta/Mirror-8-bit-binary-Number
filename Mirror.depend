@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1507761936 source:e:\c codes\mirror-8-bit-binary-number\main.c
+	<stdio.h>
+	<stdlib.h>
+
