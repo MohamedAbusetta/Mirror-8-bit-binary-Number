@@ -17,6 +17,9 @@ unsigned char mirror (unsigned char num)
     unsigned char j = 0;
     unsigned char temp = 0;
     while(i >= 0){
+        //Same concept to reverse a list by pushing all elements in stack
+        //then pop the list again
+        //implemented by bit masking
     temp |= ((num >> j) & 0b00000001) << i ; //bit mast each bit then save in temp (7-its old postion)
     i--;
     j++;
